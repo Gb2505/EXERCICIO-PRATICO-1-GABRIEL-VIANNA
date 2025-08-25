@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <h1>Horarios das aulas</h1>
+    <table border="1">
+        <tr>
+            <th>Disciplina</th>
+            <th>Professor</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Matematica</td>
+            <td>Prof.Silva</td>
+            <td>08:00 - 09:00</td>
+        </tr>
+        <tr>
+            <td>Portugues</td>
+            <td>Profa.Ana</td>
+            <td>09:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td>Historia</td>
+            <td>Prof.Joao</td>
+            <td>10:15 - 11:15</td>
+        </tr>
+        <tr>
+            <td>Ingles</td>
+            <td>Profa.Maria</td>
+            <td>11:15 - 12:15</td>
+        </tr>
+    </table>
+</body>
+</html>
