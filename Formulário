@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <H1>Cadastro de usuario</H1>
+    <div>
+    <label for="nome">Nome completo:</label>
+    </div>
+    <div>
+    <input type="text" id="nome">
+    </div>
+    <div>
+    <label for="e-mail">Coloque seu e-mail:</label>
+    </div>
+    <div>
+    <input type="email" id="e-mail">
+    </div>
+    <div>
+    <label for="senha">Coloque sua senha:</label>
+    </div>
+    <div>
+    <input type="password" id="senha">
+    </div>
+    <div class="button">
+        <button type="submit">Enviar</button>
+    </div>
+</body>
+</html>
