@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Produtos</h1>
+    <table border="1">
+        <tr>
+            <th>Produtos</th>
+            <th>Preços</th>
+            <th>Quantidade em estoque</th>
+        </tr>
+        <tr>
+            <td>Notebook</td>
+            <td>3.500</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Mouse gamer</td>
+            <td>800</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Teclado mecanico</td>
+            <td>1.300</td>
+            <td>13</td>
+        </tr>
+    </table>
+    <h2>Formulario do Pedido</h2>
+    <form action="pedido.html" method="post">
+    <label for="cliente">Nome do cliente:</label><br>
+    <input type="text" id="cliente" required><br><br>
+
+    <label for="Produto">Produto desejado:</label><br>
+    <select id="Produto" name="Produto">
+        <option value="Notebook">Notebook</option>
+        <option value="Mouse gamer">Mouse gamer</option>
+        <option value="teclado mecanico"> Teclado mecanico</option>
+    </select><br><br>
+
+    <label for="quantidade">Quantidade:</label><br>
+    <input type="number" id="quantidade" name="quantidade" min="1" required><br>
+
+    <input type="submit" value="Enviar Pedido">
+</form>
+</body>
+</html>
